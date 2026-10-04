@@ -74,23 +74,6 @@ Before writing any analysis query, I checked row counts against the original CSV
 - Composite primary keys / multi-column foreign keys
 - Data cleaning and validation queries
 
-## Project structure
-f1-race-strategy-sql/
-├── README.md
-├── schema/
-│ └── schema.sql
-├── sql/
-│ ├── 01_beginner_queries.sql
-│ ├── 02_intermediate_queries.sql
-│ └── 03_advanced_queries.sql
-├── data-cleaning/
-│ └── data_cleaning_checks.sql
-└── sample-results/
-├── Q1.csv
-├── Q2.csv
-├── ...
-└── Q15.csv
-
 ## How to run it
 
 1. Install PostgreSQL + pgAdmin.
