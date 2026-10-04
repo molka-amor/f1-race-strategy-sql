@@ -78,7 +78,7 @@ Before writing any analysis query, I checked row counts against the original CSV
 
 1. Install PostgreSQL + pgAdmin.
 2. Create a database.
-3. Run `schema/schema.sql` to create the 9 tables.
+3. Run `schema.sql` to create the 9 tables.
 4. Download the CSVs from the Kaggle link above and import each into its matching table (header row on, null string set to `\N`).
-5. Run `data-cleaning/data_cleaning_checks.sql` to confirm the import worked.
+5. Run `data_cleaning_checks.sql` to confirm the import worked.
 6. Run the queries in `/sql`, in order.
