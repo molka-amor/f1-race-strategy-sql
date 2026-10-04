@@ -30,7 +30,7 @@ Before writing any analysis query, I checked row counts against the original CSV
 
 ## Analytical questions
 
-15 questions, organized beginner → advanced, split across 3 files in `/sql`. Sample results for each one are saved as CSV exports in `/sample-results`.
+15 questions, organized beginner → advanced, split across 3 files in `/sql`. Sample results for each one are saved as CSV.
 
 **Beginner** (`01_beginner_queries.sql`)
 1. Which circuits have hosted the most races? → [Q1.csv](sample-results/Q1.csv)
